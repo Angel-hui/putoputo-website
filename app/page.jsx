@@ -25,7 +25,7 @@ export default function Home() {
               IP STRATEGY · BRAND GROWTH · GLOBAL BUSINESS
             </p>
             <p className="mt-10 max-w-xl text-base leading-8 text-black/60 sm:text-lg">
-              原创IP孵化 · 品牌战略咨询 · 潮玩渠道运营 · 文旅IP开发 · 海外市场拓展
+              原创IP孵化 · 品牌战略咨询 · 潮玩渠道运营 · 文旅IP开发 · 海外拓展
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <Link href="/services" className="rounded-full bg-ink px-7 py-4 font-black text-white transition hover:bg-pulse">了解服务 →</Link>

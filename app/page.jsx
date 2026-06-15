@@ -59,13 +59,13 @@ export default function Home() {
             <Link href="/services#brand" className="group rounded-[2rem] bg-pulse p-9 text-white transition hover:-translate-y-2 sm:p-12">
               <p className="text-sm font-black opacity-70">01 · BRAND SERVICES</p>
               <h3 className="mt-12 text-4xl font-black">品牌服务</h3>
-              <p className="mt-8 max-w-md text-lg leading-9 text-white/80">原创IP孵化</p>
+              <p className="mt-8 max-w-md text-lg leading-9 text-white/80">原创IP孵化，衍生品设计开发</p>
               <p className="mt-12 font-black">了解更多 ↗</p>
             </Link>
             <Link href="/services#consulting" className="group rounded-[2rem] bg-ink p-9 text-white transition hover:-translate-y-2 sm:p-12">
               <p className="text-sm font-black text-pulse">02 · BUSINESS CONSULTING</p>
-              <h3 className="mt-12 text-4xl font-black">品牌战略规划</h3>
-              <p className="mt-8 max-w-md text-lg leading-9 text-white/65">潮玩渠道咨询 海外市场拓展。</p>
+              <h3 className="mt-12 text-4xl font-black">业务咨询</h3>
+              <p className="mt-8 max-w-md text-lg leading-9 text-white/65">渠道网络与组织体系搭建 海外市场拓展。</p>
               <p className="mt-12 font-black text-cyan">了解更多 ↗</p>
             </Link>
           </div>
@@ -99,7 +99,7 @@ export default function Home() {
         <div className="container-shell">
           <p className="text-center text-xs font-black uppercase tracking-[.18em] text-black/35">Selected clients & partners / 部分合作企业与机构</p>
           <div className="mt-9 flex flex-wrap items-center justify-center gap-x-10 gap-y-5 text-lg font-black text-black/55 sm:gap-x-14">
-            {["52TOYS", "卡游动漫", "王的网络", "South Valley", "PUTOPUTO", "古茶部落"].map((name) => (
+            {["52TOYS", "卡游动漫", "王的网络", "SOUTH VALLEY", "PUTOPUTO", "古茶部落"].map((name) => (
               <span key={name}>{name}</span>
             ))}
           </div>

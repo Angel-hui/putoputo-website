@@ -20,9 +20,9 @@ export default function Home() {
         <div className="container-shell relative flex min-h-[calc(100vh-78px)] items-center py-20">
           <div className="max-w-[720px]">
             <p className="eyebrow">PUTOPUTO / 噗通噗通</p>
-            <h1 className="display-title mt-9">让IP创造<br /><span className="text-pulse">商业增长引擎</span></h1>
+            <h1 className="display-title mt-9">让IP成为<br /><span className="text-pulse">商业增长引擎</span></h1>
             <p className="mt-7 max-w-xl text-lg font-bold uppercase tracking-[.08em] text-black/45">
-              IDEAS INTO BRANDS, BRANDS INTO BUSINESS
+              IP STRATEGY · BRAND GROWTH · GLOBAL BUSINESS
             </p>
             <p className="mt-10 max-w-xl text-base leading-8 text-black/60 sm:text-lg">
               原创IP孵化 · 品牌战略咨询 · 潮玩渠道运营 · 文旅IP开发 · 海外市场拓展

@@ -60,7 +60,7 @@ export default function Home() {
             <h2 className="section-title mt-7 max-w-5xl">IP成品牌 <br />品牌成增长</h2>
           </div>
           <div className="border-l border-black/10 pl-7 sm:pl-12">
-            <p className="text-xl font-bold leading-9">我们帮助企业与品牌完成从创意构想到商业落地的全过程，涵盖原创IP孵化、品牌升级、渠道增长与全球化拓展。</p>
+            <p className="text-xl font-bold leading-9">让创意成为品牌资产，让品牌驱动持续增长。</p>
             <p className="mt-5 leading-7 text-black/50">Ideas into Brands. Brands into Business.</p>
           </div>
         </div>

@@ -20,16 +20,16 @@ export default function Home() {
         <div className="container-shell relative flex min-h-[calc(100vh-78px)] items-center py-20">
           <div className="max-w-[720px]">
             <p className="eyebrow">PUTOPUTO / 噗通噗通</p>
-            <h1 className="display-title mt-9">让创意产生<br /><span className="text-pulse">增长的连锁反应</span></h1>
+            <h1 className="display-title mt-9">让IP创造<br /><span className="text-pulse">商业增长的无线可能</span></h1>
             <p className="mt-7 max-w-xl text-lg font-bold uppercase tracking-[.08em] text-black/45">
-              Creativity that sets growth in motion
+              Ideas Into Brands, Brands Into Business
             </p>
             <p className="mt-10 max-w-xl text-base leading-8 text-black/60 sm:text-lg">
-              品牌规划 · 原创IP设计与运营 · 衍生品与推广 · 业务与组织咨询 · 中国及全球业务拓展
+              原创IP孵化 · 品牌战略咨询 · 潮玩渠道运营 · 文旅IP开发 · 海外市场拓展
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
-              <Link href="/services" className="rounded-full bg-ink px-7 py-4 font-black text-white transition hover:bg-pulse">探索服务 →</Link>
-              <Link href="/cases" className="rounded-full border border-black/15 bg-white/70 px-7 py-4 font-black transition hover:border-pulse hover:text-pulse">查看案例</Link>
+              <Link href="/services" className="rounded-full bg-ink px-7 py-4 font-black text-white transition hover:bg-pulse">了解服务 →</Link>
+              <Link href="/cases" className="rounded-full border border-black/15 bg-white/70 px-7 py-4 font-black transition hover:border-pulse hover:text-pulse">成功案例</Link>
             </div>
             <div className="relative mt-12 aspect-[16/10] overflow-hidden rounded-[2rem] lg:hidden">
               <Image src="/assets/hero.webp" fill priority alt="PUTOPUTO 创意增长主视觉" className="object-cover" />
@@ -42,7 +42,7 @@ export default function Home() {
         <div className="container-shell grid gap-12 lg:grid-cols-[.8fr_1.2fr] lg:items-end">
           <div>
             <p className="eyebrow">Who we are</p>
-            <h2 className="section-title mt-7">创意、IP与商业增长，在同一套系统中发生。</h2>
+            <h2 className="section-title mt-7">从灵感到品牌，从IP到商业，让创意持续创造价值。</h2>
           </div>
           <div className="border-l border-black/10 pl-7 sm:pl-12">
             <p className="text-xl font-bold leading-9">我们把文化洞察、艺术表达与商业逻辑结合，将创意转化为可识别、可产品化、可运营的长期资产。</p>
@@ -59,13 +59,13 @@ export default function Home() {
             <Link href="/services#brand" className="group rounded-[2rem] bg-pulse p-9 text-white transition hover:-translate-y-2 sm:p-12">
               <p className="text-sm font-black opacity-70">01 · BRAND SERVICES</p>
               <h3 className="mt-12 text-4xl font-black">品牌服务</h3>
-              <p className="mt-8 max-w-md text-lg leading-9 text-white/80">品牌规划、原创IP设计与运营、IP衍生品设计与推广。</p>
+              <p className="mt-8 max-w-md text-lg leading-9 text-white/80">原创IP孵化</p>
               <p className="mt-12 font-black">了解更多 ↗</p>
             </Link>
             <Link href="/services#consulting" className="group rounded-[2rem] bg-ink p-9 text-white transition hover:-translate-y-2 sm:p-12">
               <p className="text-sm font-black text-pulse">02 · BUSINESS CONSULTING</p>
-              <h3 className="mt-12 text-4xl font-black">业务咨询</h3>
-              <p className="mt-8 max-w-md text-lg leading-9 text-white/65">业务体系搭建、组织系统服务、中国潮玩及全球业务拓展。</p>
+              <h3 className="mt-12 text-4xl font-black">品牌战略规划</h3>
+              <p className="mt-8 max-w-md text-lg leading-9 text-white/65">潮玩渠道咨询 海外市场拓展。</p>
               <p className="mt-12 font-black text-cyan">了解更多 ↗</p>
             </Link>
           </div>
@@ -99,7 +99,7 @@ export default function Home() {
         <div className="container-shell">
           <p className="text-center text-xs font-black uppercase tracking-[.18em] text-black/35">Selected clients & partners / 部分合作企业与机构</p>
           <div className="mt-9 flex flex-wrap items-center justify-center gap-x-10 gap-y-5 text-lg font-black text-black/55 sm:gap-x-14">
-            {["卡游动漫", "52TOYS", "简动文创", "独角兽动漫", "陌凛文创", "上海邮轮旅游度假区", "罗店文旅"].map((name) => (
+            {["52TOYS", "卡游动漫", "王的网络", "South Valley", "PUTOPUTO", "古茶部落"].map((name) => (
               <span key={name}>{name}</span>
             ))}
           </div>
@@ -115,12 +115,12 @@ export default function Home() {
           </div>
           <div className="mt-14 grid gap-6 lg:grid-cols-2">
             <Link href="/cases#putoputo" className="image-zoom group overflow-hidden rounded-[2rem] bg-white text-ink">
-              <div className="relative aspect-[16/10] overflow-hidden"><Image src="/assets/putoputo-popup.webp" fill alt="PUTOPUTO原创IP快闪空间" className="object-cover" /></div>
+              <div className="relative aspect-[16/10] overflow-hidden"><Image src="/assets/putoputo-popup.webp" fill alt="袜袜兔原创IP孵化项目" className="object-cover" /></div>
               <div className="p-8"><p className="text-xs font-black text-pulse">ORIGINAL IP</p><h3 className="mt-3 text-3xl font-black">PUTOPUTO 原创IP全链路</h3></div>
             </Link>
             <Link href="/cases#52toys" className="image-zoom group overflow-hidden rounded-[2rem] bg-[#16151a]">
               <div className="relative aspect-[16/10] overflow-hidden"><Image src="/assets/consulting-building.webp" fill alt="业务咨询" className="object-cover opacity-70" /></div>
-              <div className="p-8"><p className="text-xs font-black text-spark">BUSINESS CONSULTING</p><h3 className="mt-3 text-3xl font-black">52TOYS 渠道经营升级</h3></div>
+              <div className="p-8"><p className="text-xs font-black text-spark">BUSINESS CONSULTING</p><h3 className="mt-3 text-3xl font-black">52TOYS渠道事业部组织升级</h3></div>
             </Link>
           </div>
         </div>

@@ -60,16 +60,16 @@ body {
   margin-right: .75rem;
 }
 .display-title {
-  font-size: clamp(4.2rem, 6.4vw, 6.4rem);
+  font-size: clamp(3.8rem, 5.8vw, 6.4rem);
   font-weight: 800;
-  line-height: .92;
-  letter-spacing: -.07em;
+  line-height: 0.95;
+  letter-spacing: -0.06em;
 }
 .section-title {
-  font-size: clamp(3rem, 5vw, 5.5rem);
-  font-weight: 700;
-  line-height: 1.05;
-  letter-spacing: -.05em;
+  font-size: clamp(3rem, 4.8vw, 5.4rem);
+  font-weight: 800;
+  line-height: 1.02;
+  letter-spacing: -0.06em;
 }
 .glass {
   border: 1px solid rgba(255,255,255,.7);

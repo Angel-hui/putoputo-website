@@ -69,7 +69,7 @@ export default function Home() {
       <section className="bg-mist py-20 sm:py-24">
         <div className="container-shell">
           <p className="eyebrow">Core Services</p>
-          <h2 className="section-title mt-7 max-w-4xl">让品牌与IP成为持续增长的资产。</h2>
+          <h2 className="section-title mt-7 max-w-4xl">让品牌与IP成为持续  增长的资产。</h2>
           <div className="mt-14 grid gap-6 lg:grid-cols-2">
             <Link href="/services#brand" className="group rounded-[2rem] bg-pulse p-9 text-white transition hover:-translate-y-2 sm:p-12">
               <p className="text-sm font-black opacity-70">01 · BRAND SERVICES</p>
@@ -92,7 +92,7 @@ export default function Home() {
           <div className="flex flex-col justify-between gap-20 lg:flex-row lg:items-end">
             <div>
               <p className="eyebrow">IDEA → BRAND → GROWTH</p>
-              <h2 className="section-title mt-7 max-w-4xl">让创意成为品牌资产<br />让品牌驱动持续增长</h2>
+              <h2 className="section-title mt-7 max-w-4xl">从创意到品牌<br />从品牌到增长</h2>
             </div>
             <p className="max-w-sm text-black/55">我们帮助企业完成从创意构想到商业落地的全过程，涵盖原创IP孵化、品牌升级、渠道增长与全球化拓展。</p>
           </div>

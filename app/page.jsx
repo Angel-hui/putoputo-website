@@ -56,8 +56,8 @@ export default function Home() {
       <section className="pt-6 pb-16 sm:pt-10 sm:pb-20">
         <div className="container-shell grid gap-16 lg:grid-cols-[1fr_1fr] lg:items-center">
           <div>
-            <p className="eyebrow">IDEA → BRAND → GROWTH</p>
-            <h2 className="section-title mt-7 max-w-6xl">从创意出发 <br />为增长而生</h2>
+            <p className="eyebrow">CREATIVE × BRAND × GROWTH</p>
+            <h2 className="section-title mt-7 max-w-6xl">连接创意与商业 <br />让品牌持续增长</h2>
           </div>
           <div className="border-l border-black/10 pl-7 sm:pl-12">
             <p className="text-xl font-bold leading-9">从一个好创意，到一个好品牌，再到一门好生意。</p>
@@ -66,35 +66,35 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-mist py-24 sm:py-32">
+      <section className="bg-mist py-20 sm:py-24">
         <div className="container-shell">
           <p className="eyebrow">Core Services</p>
-          <h2 className="section-title mt-7 max-w-4xl">从灵感到品牌，从品牌到增长。</h2>
+          <h2 className="section-title mt-7 max-w-4xl">让品牌与IP成为持续增长的资产。</h2>
           <div className="mt-14 grid gap-6 lg:grid-cols-2">
             <Link href="/services#brand" className="group rounded-[2rem] bg-pulse p-9 text-white transition hover:-translate-y-2 sm:p-12">
               <p className="text-sm font-black opacity-70">01 · BRAND SERVICES</p>
-              <h3 className="mt-12 text-4xl font-black">品牌与IP构建</h3>
-              <p className="mt-8 max-w-md text-lg leading-9 text-white/80">原创IP定位、角色设定、视觉体系、衍生品开发与商业化运营</p>
+              <h3 className="mt-12 text-4xl font-black">品牌战略与IP孵化</h3>
+              <p className="mt-8 max-w-md text-lg leading-9 text-white/80">从品牌定位到IP世界观构建，建立可持续运营的品牌资产。</p>
               <p className="mt-12 font-black">了解更多 ↗</p>
             </Link>
             <Link href="/services#consulting" className="group rounded-[2rem] bg-ink p-9 text-white transition hover:-translate-y-2 sm:p-12">
               <p className="text-sm font-black text-pulse">02 · BUSINESS CONSULTING</p>
-              <h3 className="mt-12 text-4xl font-black">增长与商业咨询</h3>
-              <p className="mt-8 max-w-md text-lg leading-9 text-white/65">潮玩渠道运营、品牌增长策略、组织升级与东南亚市场拓展</p>
+              <h3 className="mt-12 text-4xl font-black">增长战略与渠道咨询</h3>
+              <p className="mt-8 max-w-md text-lg leading-9 text-white/65">渠道增长、组织升级、海外市场拓展与商业模式设计</p>
               <p className="mt-12 font-black text-cyan">了解更多 ↗</p>
             </Link>
           </div>
         </div>
       </section>
 
-      <section className="py-24 sm:py-32">
+      <section className="py-20 sm:py-24">
         <div className="container-shell">
           <div className="flex flex-col justify-between gap-20 lg:flex-row lg:items-end">
             <div>
-              <p className="eyebrow">End-to-end</p>
-              <h2 className="section-title mt-7 max-w-4xl">从创意到品牌<br />从品牌到增长</h2>
+              <p className="eyebrow">IDEA → BRAND → GROWTH</p>
+              <h2 className="section-title mt-7 max-w-4xl">让创意成为品牌资产<br />让品牌驱动持续增长</h2>
             </div>
-            <p className="max-w-sm text-black/55">我们以原创IP、品牌策略、产品开发与渠道运营为核心，帮助创意从概念走向市场，形成可持续增长的商业资产。</p>
+            <p className="max-w-sm text-black/55">我们帮助企业完成从创意构想到商业落地的全过程，涵盖原创IP孵化、品牌升级、渠道增长与全球化拓展。</p>
           </div>
           <div className="mt-14 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
             {steps.map(([n, title, en, body], i) => (

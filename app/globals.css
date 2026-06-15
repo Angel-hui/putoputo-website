@@ -60,10 +60,10 @@ body {
   margin-right: .75rem;
 }
 .display-title {
-  font-size: clamp(3.2rem, 6.2vw, 6.4rem);
+  font-size: clamp(4.2rem, 6.4vw, 6.4rem);
   font-weight: 800;
-  line-height: .95;
-  letter-spacing: -.065em;
+  line-height: .92;
+  letter-spacing: -.07em;
 }
 .section-title {
   font-size: clamp(2.1rem, 4.3vw, 4.7rem);

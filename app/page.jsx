@@ -92,9 +92,9 @@ export default function Home() {
           <div className="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
             <div>
               <p className="eyebrow">End-to-end</p>
-              <h2 className="section-title mt-7 max-w-4xl">让创意成为品牌，让品牌创造商业价值</h2>
+              <h2 className="section-title mt-7 max-w-4xl">从创意到品牌<br />从品牌到增长</h2>
             </div>
-            <p className="max-w-sm text-black/50">One integrated path takes ideas from insight to scalable growth.</p>
+            <p className="max-w-sm text-black/55">我们以原创IP、品牌策略、产品开发与渠道运营为核心，帮助创意从概念走向市场，形成可持续增长的商业资产。</p>
           </div>
           <div className="mt-14 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
             {steps.map(([n, title, en, body], i) => (
@@ -114,7 +114,7 @@ export default function Home() {
         <div className="container-shell">
           <p className="text-center text-xs font-black uppercase tracking-[.18em] text-black/35">Selected clients & partners / 部分合作企业与机构</p>
           <div className="mt-9 flex flex-wrap items-center justify-center gap-x-10 gap-y-5 text-lg font-black text-black/55 sm:gap-x-14">
-            {["52TOYS", "卡游动漫", "王的网络", "SOUTH VALLEY", "PUTOPUTO", "古茶部落"].map((name) => (
+            {["52TOYS", "卡游动漫", "王的网络", "SOUTH VALLEY", "MOLYNK", "古茶部落"].map((name) => (
               <span key={name}>{name}</span>
             ))}
           </div>

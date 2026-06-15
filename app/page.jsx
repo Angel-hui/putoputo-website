@@ -53,15 +53,15 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-12 sm:py-12 sm:py-20">
+      <section className="pt-6 pb-16 sm:pt-10 sm:pb-20">
         <div className="container-shell grid gap-16 lg:grid-cols-[1fr_1fr] lg:items-center">
           <div>
-            <p className="eyebrow">WHO WE ARE</p>
-            <h2 className="section-title mt-7 max-w-5xl">让创意成为品牌 <br />让品牌驱动增长</h2>
+            <p className="eyebrow">IDEA → BRAND → GROWTH</p>
+            <h2 className="section-title mt-7 max-w-6xl">让创意成为品牌资产 <br />让品牌驱动增长</h2>
           </div>
           <div className="border-l border-black/10 pl-7 sm:pl-12">
-            <p className="text-xl font-bold leading-9">我们帮助企业完成从创意构想到商业落地的全过程，涵盖原创IP孵化、品牌升级、渠道增长与全球化拓展。</p>
-            <p className="mt-5 leading-7 text-black/50">Ideas into Brands.Brands into Growth.</p>
+            <p className="text-xl font-bold leading-9">从一个好创意，到一个好品牌，再到一门好生意。</p>
+            <p className="mt-5 leading-7 text-black/50">From Creative Insight to Business Growth.</p>
           </div>
         </div>
       </section>

@@ -57,7 +57,7 @@ export default function Home() {
         <div className="container-shell grid gap-16 lg:grid-cols-[1fr_1fr] lg:items-center">
           <div>
             <p className="eyebrow">IDEA → BRAND → GROWTH</p>
-            <h2 className="section-title mt-7 max-w-6xl">让创意成为品牌资产 <br />让品牌驱动增长</h2>
+            <h2 className="section-title mt-7 max-w-6xl">从创意出发 <br />为增长而生</h2>
           </div>
           <div className="border-l border-black/10 pl-7 sm:pl-12">
             <p className="text-xl font-bold leading-9">从一个好创意，到一个好品牌，再到一门好生意。</p>

@@ -53,23 +53,23 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="pt-6 pb-16 sm:pt-10 sm:pb-20">
+      <section className="pt-0 pb-14 sm:pt-2 sm:pb-16">
         <div className="container-shell grid gap-16 lg:grid-cols-[1fr_1fr] lg:items-center">
           <div>
             <p className="eyebrow">CREATIVE × BRAND × GROWTH</p>
-            <h2 className="section-title mt-7 max-w-6xl">连接创意与商业 <br />让品牌持续增长</h2>
+            <h2 className="section-title mt-7 max-w-7xl">连接创意与商业 <br />让品牌持续增长</h2>
           </div>
           <div className="border-l border-black/10 pl-7 sm:pl-12">
-            <p className="text-xl font-bold leading-9">从一个好创意，到一个好品牌，再到一门好生意。</p>
+            <p className="text-xl font-bold leading-9">从原创IP孵化，到品牌资产运营，再到全球市场增长。</p>
             <p className="mt-5 leading-7 text-black/50">From Creative Insight to Business Growth.</p>
           </div>
         </div>
       </section>
 
-      <section className="bg-mist py-20 sm:py-24">
+      <section className="bg-mist py-16 sm:py-20">
         <div className="container-shell">
           <p className="eyebrow">Core Services</p>
-          <h2 className="section-title mt-7 max-w-4xl">让品牌与IP成为持续  增长的资产。</h2>
+          <h2 className="section-title mt-7 max-w-4xl">让品牌成为资产 让增长成为结果</h2>
           <div className="mt-14 grid gap-6 lg:grid-cols-2">
             <Link href="/services#brand" className="group rounded-[2rem] bg-pulse p-9 text-white transition hover:-translate-y-2 sm:p-12">
               <p className="text-sm font-black opacity-70">01 · BRAND SERVICES</p>

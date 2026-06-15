@@ -28,8 +28,8 @@ export default function Header() {
             </Link>
           ))}
         </nav>
-        <Link href="/contact" className="hidden rounded-full bg-ink px-7 py-3.5 text-base font-bold text-white transition hover:bg-pulse lg:block"
-        </Link>
+        <Link href="/contact" className="hidden rounded-full bg-ink px-7 py-3.5 text-base font-bold text-white transition hover:bg-pulse lg:block">
+        开始合作</Link>
         <button type="button" className="grid h-11 w-11 place-items-center rounded-full border border-black/10 lg:hidden" onClick={() => setOpen(!open)} aria-label="切换导航" aria-expanded={open} aria-controls="mobile-navigation">
           <span className="text-xl">{open ? "×" : "≡"}</span>
         </button>

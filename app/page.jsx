@@ -68,18 +68,18 @@ export default function Home() {
 
       <section className="bg-mist py-24 sm:py-32">
         <div className="container-shell">
-          <p className="eyebrow">Two engines</p>
-          <h2 className="section-title mt-7 max-w-4xl">从创意资产到商业价值的完整链路</h2>
+          <p className="eyebrow">Core Services</p>
+          <h2 className="section-title mt-7 max-w-4xl">从灵感到品牌，从品牌到增长。</h2>
           <div className="mt-14 grid gap-6 lg:grid-cols-2">
             <Link href="/services#brand" className="group rounded-[2rem] bg-pulse p-9 text-white transition hover:-translate-y-2 sm:p-12">
               <p className="text-sm font-black opacity-70">01 · BRAND SERVICES</p>
-              <h3 className="mt-12 text-4xl font-black">原创IP孵化</h3>
+              <h3 className="mt-12 text-4xl font-black">品牌与IP构建</h3>
               <p className="mt-8 max-w-md text-lg leading-9 text-white/80">原创IP定位、角色设定、视觉体系、衍生品开发与商业化运营</p>
               <p className="mt-12 font-black">了解更多 ↗</p>
             </Link>
             <Link href="/services#consulting" className="group rounded-[2rem] bg-ink p-9 text-white transition hover:-translate-y-2 sm:p-12">
               <p className="text-sm font-black text-pulse">02 · BUSINESS CONSULTING</p>
-              <h3 className="mt-12 text-4xl font-black">品牌增长咨询</h3>
+              <h3 className="mt-12 text-4xl font-black">增长与商业咨询</h3>
               <p className="mt-8 max-w-md text-lg leading-9 text-white/65">潮玩渠道运营、品牌增长策略、组织升级与东南亚市场拓展</p>
               <p className="mt-12 font-black text-cyan">了解更多 ↗</p>
             </Link>

@@ -5,7 +5,7 @@ import CTA from "@/components/CTA";
 const steps = [
 [
 "01",
-“品牌战略",
+"品牌战略",
 "品牌定位、用户研究、商业模式设计"
 ],
 [

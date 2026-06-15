@@ -32,7 +32,7 @@ export default function Home() {
           <Image src="/assets/hero.webp" fill priority alt="PUTOPUTO 创意增长主视觉" className="object-cover object-center" />
           <div className="absolute inset-0 bg-gradient-to-r from-paper via-paper/15 to-transparent" />
         </div>
-        <div className="className="container-shell relative flex min-h-[calc(100vh-78px)] items-center py-14">
+        <div className="container-shell relative flex min-h-[calc(100vh-78px)] items-center py-14">
           <div className="max-w-[720px]">
             <p className="eyebrow">PUTOPUTO / 噗通噗通</p>
             <h1 className="display-title mt-9">让IP成为<br /><span className="text-pulse">商业增长引擎</span></h1>

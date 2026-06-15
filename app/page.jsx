@@ -57,7 +57,7 @@ export default function Home() {
         <div className="container-shell grid gap-12 lg:grid-cols-[.8fr_1.2fr] lg:items-end">
           <div>
             <p className="eyebrow">Who we are</p>
-            <h2 className="section-title mt-7">从IP到品牌<br /> 从品牌到增长</h2>
+            <h2 className="section-title mt-7 max-w-5xl">IP成品牌 <br />品牌成增长</h2>
           </div>
           <div className="border-l border-black/10 pl-7 sm:pl-12">
             <p className="text-xl font-bold leading-9">我们帮助企业与品牌完成从创意构想到商业落地的全过程，涵盖原创IP孵化、品牌升级、渠道增长与全球化拓展。</p>

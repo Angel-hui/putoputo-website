@@ -17,11 +17,11 @@ export default function Home() {
           <Image src="/assets/hero.webp" fill priority alt="PUTOPUTO 创意增长主视觉" className="object-cover object-center" />
           <div className="absolute inset-0 bg-gradient-to-r from-paper via-paper/15 to-transparent" />
         </div>
-        <div className="container-shell relative flex min-h-[calc(100vh-78px)] items-center py-20">
+        <div className="className="container-shell relative flex min-h-[calc(100vh-78px)] items-center py-14">
           <div className="max-w-[720px]">
             <p className="eyebrow">PUTOPUTO / 噗通噗通</p>
             <h1 className="display-title mt-9">让IP成为<br /><span className="text-pulse">商业增长引擎</span></h1>
-            <p className="mt-7 max-w-xl text-lg font-bold uppercase tracking-[.08em] text-black/45">
+            <p className="mt-10 max-w-2xl text-base leading-8 text-black/60 sm:text-lg">
               IP STRATEGY · BRAND GROWTH · GLOBAL BUSINESS
             </p>
             <p className="mt-10 max-w-xl text-base leading-8 text-black/60 sm:text-lg">

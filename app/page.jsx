@@ -54,14 +54,14 @@ export default function Home() {
       </section>
 
       <section className="py-24 sm:py-32">
-        <div className="container-shell grid gap-12 lg:grid-cols-[.8fr_1.2fr] lg:items-end">
+        <div className="container-shell grid gap-16 lg:grid-cols-[1fr_1fr] lg:items-center">
           <div>
-            <p className="eyebrow">Who we are</p>
-            <h2 className="section-title mt-7 max-w-5xl">IP成品牌 <br />品牌成增长</h2>
+            <p className="eyebrow">WHO WE ARE</p>
+            <h2 className="section-title mt-7 max-w-5xl">让创意成为品牌资产 <br />让品牌驱动持续增长</h2>
           </div>
           <div className="border-l border-black/10 pl-7 sm:pl-12">
-            <p className="text-xl font-bold leading-9">让创意成为品牌资产，让品牌驱动持续增长。</p>
-            <p className="mt-5 leading-7 text-black/50">Ideas into Brands. Brands into Business.</p>
+            <p className="text-xl font-bold leading-9">从创意构想到品牌建立，从品牌塑造到商业增长。</p>
+            <p className="mt-5 leading-7 text-black/50">From Insight to Brand.From Brand to Growth.</p>
           </div>
         </div>
       </section>

@@ -3,10 +3,25 @@ import Link from "next/link";
 import CTA from "@/components/CTA";
 
 const steps = [
-  ["01", "洞察与规划", "Insight & Strategy", "行业研究、用户洞察、品牌与业务诊断"],
-  ["02", "设计与构建", "Design & Build", "品牌体系、原创IP、衍生品与组织机制"],
-  ["03", "验证与推广", "Validate & Activate", "产品打样、渠道测试、快闪与市场验证"],
-  ["04", "运营与增长", "Operate & Grow", "年度运营、渠道拓展、团队辅导与全球增长"]
+[
+"01",
+品牌战略",
+"品牌定位、用户研究、商业模式设计"
+],
+[
+"02",
+IP孵化",
+"角色设定、视觉开发、内容体系搭建"
+],
+[
+"03",
+商业落地",
+"产品开发、渠道运营、市场推广"
+],
+[
+"04",
+全球增长",
+"海外市场拓展、资源整合与持续增长"]
 ];
 
 export default function Home() {
@@ -54,18 +69,18 @@ export default function Home() {
       <section className="bg-mist py-24 sm:py-32">
         <div className="container-shell">
           <p className="eyebrow">Two engines</p>
-          <h2 className="section-title mt-7 max-w-4xl">两大核心业务，把创意资产连接到增长能力。</h2>
+          <h2 className="section-title mt-7 max-w-4xl">从创意资产到商业价值的完整链路</h2>
           <div className="mt-14 grid gap-6 lg:grid-cols-2">
             <Link href="/services#brand" className="group rounded-[2rem] bg-pulse p-9 text-white transition hover:-translate-y-2 sm:p-12">
               <p className="text-sm font-black opacity-70">01 · BRAND SERVICES</p>
-              <h3 className="mt-12 text-4xl font-black">品牌服务</h3>
-              <p className="mt-8 max-w-md text-lg leading-9 text-white/80">原创IP孵化，衍生品设计开发</p>
+              <h3 className="mt-12 text-4xl font-black">原创IP孵化</h3>
+              <p className="mt-8 max-w-md text-lg leading-9 text-white/80">原创IP定位、角色设定、视觉体系、衍生品开发与商业化运营</p>
               <p className="mt-12 font-black">了解更多 ↗</p>
             </Link>
             <Link href="/services#consulting" className="group rounded-[2rem] bg-ink p-9 text-white transition hover:-translate-y-2 sm:p-12">
               <p className="text-sm font-black text-pulse">02 · BUSINESS CONSULTING</p>
-              <h3 className="mt-12 text-4xl font-black">业务咨询</h3>
-              <p className="mt-8 max-w-md text-lg leading-9 text-white/65">渠道网络与组织体系搭建 海外市场拓展。</p>
+              <h3 className="mt-12 text-4xl font-black">品牌增长咨询</h3>
+              <p className="mt-8 max-w-md text-lg leading-9 text-white/65">潮玩渠道运营、品牌增长策略、组织升级与东南亚市场拓展</p>
               <p className="mt-12 font-black text-cyan">了解更多 ↗</p>
             </Link>
           </div>
@@ -77,7 +92,7 @@ export default function Home() {
           <div className="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
             <div>
               <p className="eyebrow">End-to-end</p>
-              <h2 className="section-title mt-7 max-w-4xl">从一个想法，到一个可持续增长的商业资产。</h2>
+              <h2 className="section-title mt-7 max-w-4xl">让创意成为品牌，让品牌创造商业价值</h2>
             </div>
             <p className="max-w-sm text-black/50">One integrated path takes ideas from insight to scalable growth.</p>
           </div>

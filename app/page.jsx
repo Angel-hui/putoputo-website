@@ -54,14 +54,14 @@ export default function Home() {
       </section>
 
       <section className="pt-0 pb-14 sm:pt-2 sm:pb-16">
-        <div className="container-shell grid gap-16 lg:grid-cols-[1fr_1fr] lg:items-center">
-          <div>
-            <p className="eyebrow">CREATIVE × BRAND × GROWTH</p>
-            <h2 className="section-title mt-7 max-w-7xl">连接创意与商业 <br />让品牌持续增长</h2>
+        <div className="container-shell grid gap-16 lg:grid-cols-[1.3fr_0.7fr] lg:items-center">
+          <div className="max-w-[900px]">
+            <p className="eyebrow">IDEA → BRAND → GROWTH</p>
+            <h2 className="section-title mt-7 max-w-none">让创意成为资产 <br />让品牌驱动增长</h2>
           </div>
           <div className="border-l border-black/10 pl-7 sm:pl-12">
-            <p className="text-xl font-bold leading-9">从原创IP孵化，到品牌资产运营，再到全球市场增长。</p>
-            <p className="mt-5 leading-7 text-black/50">From Creative Insight to Business Growth.</p>
+            <p className="text-xl font-bold leading-9">以原创IP为起点，以品牌资产为核心，以商业增长为结果。</p>
+            <p className="mt-5 leading-7 text-black/50">From IP Creationto Brand Assetsto Business Growth.</p>
           </div>
         </div>
       </section>

@@ -53,15 +53,15 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-24 sm:py-32">
+      <section className="py-12 sm:py-12 sm:py-20">
         <div className="container-shell grid gap-16 lg:grid-cols-[1fr_1fr] lg:items-center">
           <div>
             <p className="eyebrow">WHO WE ARE</p>
-            <h2 className="section-title mt-7 max-w-5xl">让创意成为品牌资产 <br />让品牌驱动持续增长</h2>
+            <h2 className="section-title mt-7 max-w-5xl">让创意成为品牌 <br />让品牌驱动增长</h2>
           </div>
           <div className="border-l border-black/10 pl-7 sm:pl-12">
-            <p className="text-xl font-bold leading-9">从创意构想到品牌建立，从品牌塑造到商业增长。</p>
-            <p className="mt-5 leading-7 text-black/50">From Insight to Brand.From Brand to Growth.</p>
+            <p className="text-xl font-bold leading-9">我们帮助企业完成从创意构想到商业落地的全过程，涵盖原创IP孵化、品牌升级、渠道增长与全球化拓展。</p>
+            <p className="mt-5 leading-7 text-black/50">Ideas into Brands.Brands into Growth.</p>
           </div>
         </div>
       </section>
@@ -89,7 +89,7 @@ export default function Home() {
 
       <section className="py-24 sm:py-32">
         <div className="container-shell">
-          <div className="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
+          <div className="flex flex-col justify-between gap-20 lg:flex-row lg:items-end">
             <div>
               <p className="eyebrow">End-to-end</p>
               <h2 className="section-title mt-7 max-w-4xl">从创意到品牌<br />从品牌到增长</h2>

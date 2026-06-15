@@ -42,11 +42,11 @@ export default function Home() {
         <div className="container-shell grid gap-12 lg:grid-cols-[.8fr_1.2fr] lg:items-end">
           <div>
             <p className="eyebrow">Who we are</p>
-            <h2 className="section-title mt-7">从灵感到品牌，从IP到商业，让创意持续创造价值。</h2>
+            <h2 className="section-title mt-7">从IP到品牌，从品牌到增长</h2>
           </div>
           <div className="border-l border-black/10 pl-7 sm:pl-12">
-            <p className="text-xl font-bold leading-9">我们把文化洞察、艺术表达与商业逻辑结合，将创意转化为可识别、可产品化、可运营的长期资产。</p>
-            <p className="mt-5 leading-7 text-black/50">We turn ideas into recognizable, product-ready and scalable assets through cultural insight, creative expression and commercial logic.</p>
+            <p className="text-xl font-bold leading-9">我们帮助企业与品牌完成从创意构想到商业落地的全过程，涵盖原创IP孵化、品牌升级、渠道增长与全球化拓展。</p>
+            <p className="mt-5 leading-7 text-black/50">Ideas into Brands.Brands into Business.</p>
           </div>
         </div>
       </section>

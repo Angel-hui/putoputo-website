@@ -14,12 +14,13 @@ export default function ContactPage() {
         <div className="container-shell grid gap-8 lg:grid-cols-[1.1fr_.9fr]">
           <div className="rounded-[2rem] bg-ink p-8 text-white sm:p-12">
             <p className="text-sm font-black text-pulse">合作方式 / ENGAGEMENTS</p>
-            <h2 className="mt-7 text-4xl font-black leading-tight">专项咨询 · 项目全案 · 年度顾问 · IP联合共创 · 商业拓展合作</h2>
-            <div className="mt-12 grid gap-5 sm:grid-cols-3">
+            <h2 className="mt-7 text-4xl font-black leading-tight">专项咨询 · 项目全案 · 年度顾问 · 工作坊训练 · IP联合共创 · 商业拓展合作</h2>
+            <div className="mt-12 grid gap-5 sm:grid-cols-2">
               {[
-                ["品牌清晰", "从定位到长期资产"],
-                ["IP生命力", "从形象到内容、产品与运营"],
-                ["业务增长", "从策略到渠道、组织与全球市场"]
+                ["渠道增长咨询包", "客户分级、经销商政策、销售看板与区域动作"],
+                ["品牌IP升级包", "角色资产、视觉规范、应用系统与衍生品"],
+                ["组织能力训练营", "管理层共创、渠道经理训练、讲师稿与复盘"],
+                ["全球拓展顾问", "市场进入、合作伙伴、出海提案与本土化表达"]
               ].map(([title, body]) => (
                 <div key={title} className="rounded-2xl bg-white/7 p-5">
                   <p className="font-black text-pulse">{title}</p>

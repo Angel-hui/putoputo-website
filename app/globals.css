@@ -18,7 +18,7 @@ body {
   background:
     radial-gradient(circle at 10% 0%, rgba(240,79,154,.07), transparent 28rem),
     var(--paper);
-  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+  font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 ::selection { color: white; background: var(--pulse); }
 
@@ -60,16 +60,16 @@ body {
   margin-right: .75rem;
 }
 .display-title {
-  font-size: clamp(3.8rem, 5.8vw, 6.4rem);
+  font-size: clamp(3rem, 7vw, 7.1rem);
   font-weight: 800;
-  line-height: 1.05;
-  letter-spacing: -0.05em;
+  line-height: .96;
+  letter-spacing: -.065em;
 }
 .section-title {
- font-size: clamp(3rem, 6vw, 5.5rem);
+  font-size: clamp(2.1rem, 4.3vw, 4.7rem);
   font-weight: 800;
-  line-height: 1.02;
-  letter-spacing: -0.06em;
+  line-height: 1.04;
+  letter-spacing: -.05em;
 }
 .glass {
   border: 1px solid rgba(255,255,255,.7);

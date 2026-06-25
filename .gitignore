@@ -1,0 +1,6 @@
+.DS_Store
+.home/
+.next/
+node_modules/
+out/
+/assets/

@@ -10,20 +10,33 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <>
-      <PageHero eyebrow="About putoputo" title="我们让文化洞察、创意表达与商业逻辑，在同一套系统中发生。" english="Creativity, original IP and business growth — built as one system." />
+      <PageHero eyebrow="About putoputo" title="我们不是只做设计，也不是只做咨询。" english="PUTOPUTO works as an engine between creative makers and business builders." />
 
       <section className="py-24 sm:py-32">
         <div className="container-shell grid gap-14 lg:grid-cols-2 lg:items-center">
           <div className="relative overflow-hidden rounded-[2rem] bg-mist p-5">
-            <Image src="/assets/hero.webp" width={1672} height={941} alt="PUTOPUTO创意增长主视觉" className="w-full rounded-[1.4rem]" />
+            <Image src="/assets/biz-position.webp" width={1376} height={768} alt="PUTOPUTO 探险家定位" className="w-full rounded-[1.4rem]" />
           </div>
           <div>
             <p className="eyebrow">Idea → Asset → Growth</p>
-            <h2 className="mt-7 text-4xl font-black leading-tight tracking-[-.04em] sm:text-5xl">一声“噗通”，让创意产生增长的连锁反应。</h2>
+            <h2 className="mt-7 text-4xl font-black leading-tight tracking-[-.04em] sm:text-5xl">我们扮演“探险家”：把创意、IP、产品接入渠道、组织与销售。</h2>
             <div className="mt-10 grid gap-8 sm:grid-cols-2">
-              <div><p className="font-black text-pulse">涟漪 / RIPPLE</p><p className="mt-4 leading-8 text-black/60">从一个洞察出发，形成清晰的品牌主张与创意核心。</p></div>
-              <div><p className="font-black text-cyan">连接 / CONNECTION</p><p className="mt-4 leading-8 text-black/60">连接品牌、IP、产品、场景、渠道与组织能力。</p></div>
+              <div><p className="font-black text-pulse">创意资产化</p><p className="mt-4 leading-8 text-black/60">把IP、视觉、内容、产品从散落素材整理为可复用资产。</p></div>
+              <div><p className="font-black text-cyan">增长系统化</p><p className="mt-4 leading-8 text-black/60">把渠道、组织、销售与培训转化为可执行的业务动作。</p></div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-mist py-24 sm:py-32">
+        <div className="container-shell grid gap-12 lg:grid-cols-[.9fr_1.1fr] lg:items-center">
+          <div>
+            <p className="eyebrow">How we work</p>
+            <h2 className="section-title mt-7">合作不是交一个文件，而是一起把增长路径做清楚。</h2>
+            <p className="mt-7 text-lg leading-8 text-black/55">每个项目都会形成现状分析、问题诊断、机会点、策略建议、执行路径与风险提示，确保成果能进入客户的真实经营节奏。</p>
+          </div>
+          <div className="overflow-hidden rounded-[2rem] border border-black/8 bg-white shadow-soft">
+            <Image src="/assets/method-path.webp" width={1376} height={768} alt="PUTOPUTO 诊断策略设计落地复盘合作路径" className="w-full" />
           </div>
         </div>
       </section>

@@ -8,10 +8,10 @@ export const metadata = {
 };
 
 const cards = [
-  ["52TOYS", "把渠道经验变成可运转的增长系统。", "渠道战略 / 客户分级 / 销售日报 / 绩效管理 / Workshop训练", "/assets/biz-52toys.webp", "52toys"],
-  ["阳光国际", "让产品供应链拥有可爱的商业人格。", "角色资产 / 视觉规范 / 表情动作 / 包装应用 / 衍生品系统", "/assets/biz-sunshine.webp", "sunshine"],
-  ["MOLYNK / WANGOODS", "从单一产品堆叠，到系统级品牌增长。", "品牌手册 / 产品矩阵 / 销售政策 / 组织架构 / 预算与展会体系", "/assets/biz-strategy-cases.webp", "strategy"],
-  ["寺院文创 / FUNKO中国", "寻找新消费路径与全球化本土表达。", "市场调研 / 本土化策略 / 渠道诊断 / 合作模式重塑", "/assets/biz-newtracks.webp", "tracks"]
+  ["52TOYS", "把渠道经验变成可运转的增长系统。", "渠道战略 / 客户分级 / 销售日报 / 绩效管理 / Workshop训练", "/assets/biz-52toys.jpg", "52toys"],
+  ["阳光国际", "让产品供应链拥有可爱的商业人格。", "角色资产 / 视觉规范 / 表情动作 / 包装应用 / 衍生品系统", "/assets/biz-sunshine.jpg", "sunshine"],
+  ["MOLYNK / WANGOODS", "从单一产品堆叠，到系统级品牌增长。", "品牌手册 / 产品矩阵 / 销售政策 / 组织架构 / 预算与展会体系", "/assets/biz-strategy-cases.jpg", "strategy"],
+  ["寺院文创 / FUNKO中国", "寻找新消费路径与全球化本土表达。", "市场调研 / 本土化策略 / 渠道诊断 / 合作模式重塑", "/assets/biz-newtracks.jpg", "tracks"]
 ];
 
 export default function CasesPage() {
@@ -46,7 +46,7 @@ export default function CasesPage() {
             </div>
           </div>
           <div className="overflow-hidden rounded-[2rem] border border-black/8 bg-white shadow-soft">
-            <Image src="/assets/biz-assets.webp" width={1376} height={768} alt="PUTOPUTO项目资产库" className="w-full" />
+            <Image src="/assets/biz-assets.jpg" width={1376} height={768} alt="PUTOPUTO项目资产库" className="w-full" />
           </div>
         </div>
       </section>

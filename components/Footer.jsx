@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container-shell grid gap-10 md:grid-cols-[1.4fr_.6fr_.6fr]">
         <div>
           <div className="flex items-center gap-4">
-            <Image src="/assets/symbol.webp" width={364} height={362} alt="" className="h-14 w-14 object-contain" />
+            <Image src="/assets/symbol.png" width={364} height={362} alt="" className="h-14 w-14 object-contain" />
             <div>
               <p className="text-xl font-black tracking-tight">PUTOPUTO / 噗通噗通</p>
               <p className="mt-1 text-xs font-bold uppercase tracking-[.18em] text-white/45">Creative brand · IP · Business growth</p>

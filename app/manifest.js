@@ -11,9 +11,9 @@ export default function manifest() {
     theme_color: "#F04F9A",
     icons: [
       {
-        src: "/assets/symbol.webp",
+        src: "/assets/symbol.png",
         sizes: "any",
-        type: "image/webp"
+        type: "image/png"
       }
     ]
   };

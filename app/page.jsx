@@ -51,7 +51,7 @@ export default function Home() {
             </div>
           </div>
           <div className="overflow-hidden rounded-[2rem] border border-black/8 bg-white shadow-soft">
-            <Image src="/assets/biz-hero.webp" width={1376} height={768} priority alt="PUTOPUTO 让创意产生价值" className="w-full" />
+            <Image src="/assets/biz-hero.jpg" width={1376} height={768} priority alt="PUTOPUTO 让创意产生价值" className="w-full" />
           </div>
         </div>
       </section>
@@ -72,7 +72,7 @@ export default function Home() {
             ))}
           </div>
           <div className="mt-10 overflow-hidden rounded-[2rem] border border-black/8 bg-white">
-            <Image src="/assets/biz-painpoints.webp" width={1376} height={768} alt="创意增长的三类断点" className="w-full" />
+            <Image src="/assets/biz-painpoints.jpg" width={1376} height={768} alt="创意增长的三类断点" className="w-full" />
           </div>
         </div>
       </section>
@@ -87,7 +87,7 @@ export default function Home() {
             </p>
           </div>
           <div className="overflow-hidden rounded-[2rem] border border-black/8 bg-white shadow-soft">
-            <Image src="/assets/biz-position.webp" width={1376} height={768} alt="PUTOPUTO 探险家定位" className="w-full" />
+            <Image src="/assets/biz-position.jpg" width={1376} height={768} alt="PUTOPUTO 探险家定位" className="w-full" />
           </div>
         </div>
       </section>
@@ -111,7 +111,7 @@ export default function Home() {
             ))}
           </div>
           <div className="mt-10 overflow-hidden rounded-[2rem] border border-black/8 bg-white shadow-soft">
-            <Image src="/assets/biz-ladder.webp" width={1376} height={768} alt="增长方法论四步阶梯" className="w-full" />
+            <Image src="/assets/biz-ladder.jpg" width={1376} height={768} alt="增长方法论四步阶梯" className="w-full" />
           </div>
         </div>
       </section>
@@ -129,7 +129,7 @@ export default function Home() {
             ))}
           </div>
           <div className="mt-10 overflow-hidden rounded-[2rem] border border-white/10 bg-white/5">
-            <Image src="/assets/biz-modules.webp" width={1376} height={768} alt="六大服务模块" className="w-full opacity-95" />
+            <Image src="/assets/biz-modules.jpg" width={1376} height={768} alt="六大服务模块" className="w-full opacity-95" />
           </div>
         </div>
       </section>
@@ -150,7 +150,7 @@ export default function Home() {
             </div>
           </div>
           <div className="overflow-hidden rounded-[2rem] border border-black/8 bg-white shadow-soft">
-            <Image src="/assets/biz-assets.webp" width={1376} height={768} alt="PUTOPUTO项目资产库" className="w-full" />
+            <Image src="/assets/biz-assets.jpg" width={1376} height={768} alt="PUTOPUTO项目资产库" className="w-full" />
           </div>
         </div>
       </section>
@@ -177,9 +177,9 @@ export default function Home() {
           </div>
           <div className="mt-12 grid gap-5 lg:grid-cols-3">
             {[
-              ["/cases#52toys", "52TOYS", "把渠道经验变成可运转的增长系统。", "/assets/biz-52toys.webp"],
-              ["/cases#sunshine", "阳光国际", "让产品供应链拥有可爱的商业人格。", "/assets/biz-sunshine.webp"],
-              ["/cases#strategy", "MOLYNK / WANGOODS", "从单一产品堆叠到系统级品牌增长。", "/assets/biz-strategy-cases.webp"]
+              ["/cases#52toys", "52TOYS", "把渠道经验变成可运转的增长系统。", "/assets/biz-52toys.jpg"],
+              ["/cases#sunshine", "阳光国际", "让产品供应链拥有可爱的商业人格。", "/assets/biz-sunshine.jpg"],
+              ["/cases#strategy", "MOLYNK / WANGOODS", "从单一产品堆叠到系统级品牌增长。", "/assets/biz-strategy-cases.jpg"]
             ].map(([href, title, body, img]) => (
               <Link key={title} href={href} className="image-zoom overflow-hidden rounded-[1.7rem] border border-black/8 bg-white shadow-soft">
                 <div className="relative aspect-[16/10] overflow-hidden"><Image src={img} fill alt={title} className="object-cover" /></div>

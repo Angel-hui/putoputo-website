@@ -15,7 +15,7 @@ export default function AboutPage() {
       <section className="py-24 sm:py-32">
         <div className="container-shell grid gap-14 lg:grid-cols-2 lg:items-center">
           <div className="relative overflow-hidden rounded-[2rem] bg-mist p-5">
-            <Image src="/assets/biz-position.webp" width={1376} height={768} alt="PUTOPUTO 探险家定位" className="w-full rounded-[1.4rem]" />
+            <Image src="/assets/biz-position.jpg" width={1376} height={768} alt="PUTOPUTO 探险家定位" className="w-full rounded-[1.4rem]" />
           </div>
           <div>
             <p className="eyebrow">Idea → Asset → Growth</p>
@@ -36,7 +36,7 @@ export default function AboutPage() {
             <p className="mt-7 text-lg leading-8 text-black/55">每个项目都会形成现状分析、问题诊断、机会点、策略建议、执行路径与风险提示，确保成果能进入客户的真实经营节奏。</p>
           </div>
           <div className="overflow-hidden rounded-[2rem] border border-black/8 bg-white shadow-soft">
-            <Image src="/assets/method-path.webp" width={1376} height={768} alt="PUTOPUTO 诊断策略设计落地复盘合作路径" className="w-full" />
+            <Image src="/assets/method-path.jpg" width={1376} height={768} alt="PUTOPUTO 诊断策略设计落地复盘合作路径" className="w-full" />
           </div>
         </div>
       </section>
@@ -44,7 +44,7 @@ export default function AboutPage() {
       <section className="bg-ink py-24 text-white sm:py-32">
         <div className="container-shell grid gap-14 lg:grid-cols-[.85fr_1.15fr] lg:items-center">
           <div className="relative mx-auto aspect-square w-full max-w-[470px] overflow-hidden rounded-[2rem] bg-white/5">
-            <Image src="/assets/founder.webp" fill alt="创始人 Angel Yang" className="object-contain object-bottom" />
+            <Image src="/assets/founder.png" fill alt="创始人 Angel Yang" className="object-contain object-bottom" />
           </div>
           <div>
             <p className="eyebrow !text-white/50">Founder introduction</p>

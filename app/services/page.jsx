@@ -49,7 +49,7 @@ export default function ServicesPage() {
             </div>
           </div>
           <div className="overflow-hidden rounded-[2rem] border border-black/8 bg-white shadow-soft">
-            <Image src="/assets/biz-tools.webp" width={1376} height={768} alt="PUTOPUTO 增长级交付工具" className="w-full" />
+            <Image src="/assets/biz-tools.jpg" width={1376} height={768} alt="PUTOPUTO 增长级交付工具" className="w-full" />
           </div>
         </div>
       </section>
@@ -69,7 +69,7 @@ export default function ServicesPage() {
             ))}
           </div>
           <div className="mt-10 overflow-hidden rounded-[2rem] border border-white/10 bg-white/5">
-            <Image src="/assets/biz-modules.webp" width={1376} height={768} alt="PUTOPUTO六大服务模块" className="w-full opacity-95" />
+            <Image src="/assets/biz-modules.jpg" width={1376} height={768} alt="PUTOPUTO六大服务模块" className="w-full opacity-95" />
           </div>
         </div>
       </section>
@@ -79,7 +79,7 @@ export default function ServicesPage() {
           <p className="eyebrow">Method</p>
           <h2 className="section-title mt-7 max-w-4xl">判断优先级：用户价值 → 商业价值 → 品牌价值 → 执行效率 → 长期增长。</h2>
           <div className="mt-10 overflow-hidden rounded-[2rem] border border-black/8 bg-white shadow-soft">
-            <Image src="/assets/biz-ladder.webp" width={1376} height={768} alt="PUTOPUTO 增长方法论四步阶梯" className="w-full" />
+            <Image src="/assets/biz-ladder.jpg" width={1376} height={768} alt="PUTOPUTO 增长方法论四步阶梯" className="w-full" />
           </div>
         </div>
       </section>

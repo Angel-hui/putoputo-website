@@ -10,8 +10,8 @@ export const metadata = {
   description: "PUTOPUTO 噗通噗通专注品牌规划、原创IP设计与运营、IP衍生品推广，以及潮玩文创企业的业务与组织咨询。",
   keywords: ["品牌设计", "原创IP设计", "潮玩咨询", "IP运营", "品牌咨询", "文创产品设计"],
   icons: {
-    icon: "/assets/symbol.webp",
-    apple: "/assets/symbol.webp"
+    icon: "/assets/symbol.png",
+    apple: "/assets/symbol.png"
   },
   openGraph: {
     title: "PUTOPUTO 噗通噗通",

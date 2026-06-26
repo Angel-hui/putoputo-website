@@ -38,7 +38,7 @@ export default function ContactPage() {
             <p className="eyebrow">WeChat</p>
             <h2 className="mt-7 text-3xl font-black">扫描二维码，开启合作对话。</h2>
             <div className="mt-8 flex justify-center rounded-3xl bg-mist p-7">
-              <Image src="/assets/wechat-qr.webp" width={646} height={667} alt="PUTOPUTO 微信二维码" className="w-full max-w-[310px]" />
+              <Image src="/assets/wechat-qr.png" width={646} height={667} alt="PUTOPUTO 微信二维码" className="w-full max-w-[310px]" />
             </div>
             <p className="mt-7 text-center text-sm leading-7 text-black/45">请在添加时备注公司、项目类型与合作需求。</p>
           </div>

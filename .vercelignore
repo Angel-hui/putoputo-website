@@ -3,5 +3,4 @@
 .home
 node_modules
 out
-assets
 .DS_Store
